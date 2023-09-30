@@ -1,0 +1,24 @@
+/* Estilos para el menu de imagenes */
+.pizza-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030; /* Cambia el color de fondo a gris oscuro */
+    padding: 30px;
+    color: #fff;
+}
+
+.pizza-item {
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+}
+
+.pizza-item img {
+    width: 100%;
+    max-width: 250px; /* Limita el ancho de la imagen */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

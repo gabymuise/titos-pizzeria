@@ -1,0 +1,42 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1.background-image {
+    color: #f4f4f4; 
+    background-image: url('../jpg/inicio1.jpg');
+    padding: 45px;
+    margin: 0;
+}
+
+nav {
+    background-color: #333; /* Fondo negro para la barra de navegación */
+}
+
+nav a {
+    color: #fff; /* Texto blanco para los enlaces */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: #555;
+}
+
+/* Estilos para el contenido principal */
+h2 {
+    margin-top: 20px;
+    color: #333; /* Color oscuro para el texto principal */
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #f4f4f4;
+    width: 100%;
+}

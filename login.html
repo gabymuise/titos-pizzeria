@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>Iniciar Sesión</h1>
+    </header>
+    <main>
+        <form action="login.php" method="POST">
+        <div class="campo">
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" name="correo" required><br>
+        </div>
+        <div class="campo">
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" name="contrasena" required><br>
+        </div>
+        <div class="boton">
+            <button type="submit" name="">Iniciar Sesion</button>
+        </div>
+        </form>
+        <p>¿No tienes cuenta? <a href="nuevo_usuario.php">Regístrate aquí</a></p>
+    </main>
+    <footer id="main-footer">
+        <p>© 2023 Pizzeria Tito's. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

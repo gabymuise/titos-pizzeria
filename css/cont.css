@@ -1,0 +1,10 @@
+h2 {
+    color: #ff9900;
+}
+label{
+    color: #fff;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}

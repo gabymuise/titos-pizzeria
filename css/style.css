@@ -1,0 +1,105 @@
+/* Estilos para el encabezado */
+#encabezado {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para la imagen en el encabezado */
+#imagen-encabezado img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Evita espacios en blanco debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilos para el texto en el encabezado */
+#encabezado h1 {
+    font-size: 24px;
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 1%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos del formulario de registro e inicio de sesión */
+#registro-form,
+#login-form {
+    text-align: center;
+}
+
+.campo {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boton button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton button:hover {
+    background-color: #555;
+}
+#error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    height: 6%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
